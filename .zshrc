@@ -1,5 +1,6 @@
 # terminal prompt
-export PS1="local:%1~ $ "
+#export PS1="%2~ $ "
+export PS1="%F{yellow}%2~ %F{green}$ %f"
 
 # terminal colours
 export CLICOLOR=1
